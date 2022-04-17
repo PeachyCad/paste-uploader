@@ -9,8 +9,9 @@ inline bool file_exists(const std::string& name) {
 int main()
 {
     std::string path;
+
     while (true) {
-        std::cout << "Input absolute path to a file (with file extension, please): ";
+        std::cout << "Input absolute path to a file (with file extension and using letters only from latin alphabet, please): ";
         getline(std::cin, path);
 
         if (file_exists(path)) {

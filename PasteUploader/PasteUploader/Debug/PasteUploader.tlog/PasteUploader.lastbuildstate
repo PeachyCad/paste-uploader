@@ -1,2 +1,2 @@
-PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:VCServicingVersionATL=14.29.30136:VCServicingVersionCrtHeaders=14.29.30136:TargetPlatformVersion=10.0.19041.0:
-Debug|Win32|D:\Program Files\source\repos\PasteUploader\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+Debug|Win32|D:\Program Files\source\git_repos\paste-uploader\PasteUploader\|
