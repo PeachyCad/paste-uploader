@@ -6,13 +6,16 @@ inline bool file_exists(const std::string& name) {
     return (stat(name.c_str(), &buffer) == 0);
 }
 
-int main()
+int main(int argc, char* argv[])
 {
     std::string path;
 
     while (true) {
         std::cout << "Input absolute path to a file (with file extension and using letters only from latin alphabet, please): ";
-        getline(std::cin, path);
+        if (argc > 1)
+            path = argv[1];
+        else
+            getline(std::cin, path);
 
         if (file_exists(path)) {
             std::string command = "curl --upload-file \"" + path + "\" https://paste.c-net.org";
