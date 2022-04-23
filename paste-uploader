@@ -1,4 +1,0 @@
-#You can add an alias
-#alias paste-c='paste-uploader'
-
-curl --upload-file "$1" "https://paste.c-net.org"
